@@ -1,0 +1,28 @@
+.vanilla-select {
+    position: relative;
+    overflow: hidden;
+}
+
+.vanilla-select input {
+    position: absolute;
+    top: -10%;
+    left: -10%;
+    width: 120%;
+    height: 120%;
+    opacity: 0;
+}
+
+.cropped {
+    width: 600px;
+    height: 400px;
+}
+
+.preview{
+    width: 300px;
+    height: 200px;
+    overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+}
